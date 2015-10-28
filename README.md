@@ -2,7 +2,7 @@
 
 ## Premier site professionnel
 
-Les point que je changerais sur ce site sont : 
+Les points que je changerais sur ce site sont : 
  - le design
  - l'architecture du site 
  - la factorisation et l'optimisation du code
