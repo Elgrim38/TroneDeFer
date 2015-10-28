@@ -1,0 +1,115 @@
+body{
+	background-image: url("../media/images/bg1.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	font-size: 14px;
+	overflow: hidden;
+}
+
+#getInscription{
+	right:-320px;
+	display:none;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 320px;
+	height: auto;
+	position:absolute;
+	margin-top: 14%;
+	background-color: rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+#getNewPassword{
+	right:-320px;
+	display:none;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 320px;
+	height: auto;
+	position:absolute;
+	margin-top: 14%;
+	background-color: rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.home-content { 
+
+padding: 20px;
+width: 320px;
+padding-top: 15%;
+height: 100%;
+background-color: rgba(0,0,0,0.5);
+position: fixed;
+left: 50%;
+margin-left: -160px;
+}
+
+.form{
+	font-size:1.125em
+}
+
+form h2{
+	color:#fff;text-shadow:0 1px 1px #000
+}
+
+#UserLoginForm input[type=text],input[type=password],input[type=email]{width:100%;margin-top: 5px;margin-bottom: 5px;	line-height: 16px;outline:none;padding:5px 10px;border:1px solid rgba(0,0,0,0);font-size: 14px;}
+#UserLoginForm input[type=text]:focus,input[type=password]:focus{border:1px solid #5cb85c;transition:border .2s;}
+#UserLoginForm label{padding-left:4px }
+#UserLoginForm div{margin:5px 0}
+#UserLoginForm h2{color:#fff}
+#UserLoginForm a{display: inline-block;padding:0;margin:0;text-decoration:none;color:#fff;text-shadow:0 1px 1px #000}
+
+
+
+
+#UserLoginForm .checkbox{
+display: inline-block;
+}
+#UserLoginForm .submit input{border-radius: 0px!important}
+
+#UserSignup{display: block;}
+#UserSignup input[type=text],input[type=password],input[type=email]{width:100%;margin-top: 5px;margin-bottom: 5px;	line-height: 16px;outline:none;padding:5px 10px;border:1px solid rgba(0,0,0,0);font-size: 14px;}
+#UserSignup input[type=text]:focus,input[type=password]:focus{border:1px solid #5cb85c;transition:border .2s;}
+#UserSignup div{margin:5px 0}
+#UserSignup h2{color:#fff}
+#UserSignup .submit input{border-radius: 0px!important}
+
+#UserGetNewPassword input[type=text],input[type=password],input[type=email]{width:100%;outline:none;padding:5px 10px;font-size:14px;border:1px solid rgba(0,0,0,0)}
+#UserGetNewPassword input[type=text]:focus,input[type=password]:focus{border:1px solid #5cb85c;transition:border .2s;}
+#UserGetNewPassword div{margin:5px 0}
+#UserGetNewPasswordParaph {color:#fff}
+#UserGetNewPassword div{color:#fff}
+#UserGetNewPassword .submit input{border-radius: 0px!important}
+
+#UserRecoverPassword{display: block;}
+#UserRecoverPassword input[type=email]{width:100%;outline:none;padding:5px 10px;font-size:14px;border:1px solid rgba(0,0,0,0)}
+#UserRecoverPassword input[type=email]:focus{border:1px solid #5cb85c;transition:border .2s;}
+#UserRecoverPassword div{margin:5px 0}
+#UserRecoverPassword h2{color:#fff}
+#UserRecoverPassword .submit input{border-radius: 0px!important}
+
+
+input:-webkit-autofill, textarea:-webkit-autofill {
+background-color: rgb(255, 255, 255)!important;
+background-image: none!important;
+color: rgb(0, 0, 0)!important;
+}
+.clear { 
+	clear: both;
+} 
+
+.closeForm {
+position: absolute;
+top: 0px;
+right: 0px;
+padding: 5px 8px;
+color: white;
+}
+
